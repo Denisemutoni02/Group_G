@@ -20,7 +20,7 @@ class Profile:
         return f"https://github.com/{self.github_username}"
 
 
-# Example usage:
+
 if __name__ == "__main__":
     my_profile = Profile(
         name="Mutoni_Denise",
@@ -34,3 +34,4 @@ if __name__ == "__main__":
     my_profile.introduce()
     my_profile.show_stack()
     print("My GitHub profile:", my_profile.github_link())
+
