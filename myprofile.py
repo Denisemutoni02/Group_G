@@ -28,10 +28,11 @@ if __name__ == "__main__":
         hobby="Watching_movies",
         tech_stack=["Python", "Django", "Git"],
         github_username="Denisemutoni02",
-        fun_fact="Friends_is_that_nice!"
+        fun_fact="I_laugh_at_my_jokes_before_saying_them!"
     )
 
     my_profile.introduce()
     my_profile.show_stack()
     print("My GitHub profile:", my_profile.github_link())
+
 
